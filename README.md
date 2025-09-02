@@ -1,3 +1,17 @@
+## How To Download (As of Sep2025)
+
+    implementation "com.github.thoughtbot.expandable-recycler-view:expandablerecyclerview:v1.4"
+## In `settings.gradle` add this :
+```groovy
+  dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+      //add this line
+        maven { url "https://maven.scijava.org/content/repositories/public/" }
+    }
+}
+```
+
 ## Deprecated as of September 20, 2024
 
 expandable-recycler-view is no longer maintained. If you wish to continue to develop this code yourself, we recommend you fork it.
